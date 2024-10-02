@@ -70,5 +70,21 @@ public class Atividade4 {
         for (int j = 0; j < candidatos.length; j++) {
             System.out.println(candidatos[j] + ": " + votos[j]);
         }
+        int maior = 0;
+        String vencedor = "";
+        for (int i = 0; i < votos.length; i++) {
+            if (i == 0){
+                maior = votos[i];
+                vencedor = candidatos[i];
+            }
+            if (votos[i] > maior){
+                maior = votos[i];
+                vencedor = candidatos[i];
+            }
+        }
+        System.out.println("===========================================================");
+        System.out.println("================ P A R A B E N S ========================================");
+        System.out.println("O vencedor foi: " + vencedor);
+        System.out.println("===========================================================");
     }
 }
