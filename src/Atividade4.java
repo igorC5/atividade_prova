@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class Atividade4 {
     public static void main(String[] args) {
 
+        //AVISO: aqui após terminar a atividade, vejo que teria formas melhores de trabalhar com os arrays e
+        // simplificar o processo, no entando o código está funcionando ao que se propõem
+        //infelizmente essa percepção só me veio quando já estava quase terminando o código, devido ao fato de não ter lido
+        //tudo que foi pedido, mas como dizem, código funcionando é código que não se mexe.
+
         Scanner input = new Scanner(System.in);
 
         System.out.println("Informa a quantia de pessoas que irão votar: ");
